@@ -4,15 +4,27 @@ class Solution {
 public:
     vector<int> getRow(int rowIndex) {
         vector<int> r(rowIndex+1);
-        r[0]=1;
-        for(int i=1; i<r.size() ; i++){
-            for(int j=0; j<=i/2 ; j++){
-                r[j]=r[i-j]=(long) r[j]* (long)i/(i-j);
-            }
+        r[0]=1; r[rowIndex]=1;
+        for(int i=1; i<=(rowIndex+1)/2 ; i++){
+            r[i]=r[rowIndex-i]= (long)r[i-1] * (long)(rowIndex-i+1) / i;
         }
         return r;
     }
 };
+
+// class Solution {
+// public:
+//     vector<int> getRow(int rowIndex) {
+//         vector<int> r(rowIndex+1);
+//         r[0]=1;
+//         for(int i=1; i<r.size() ; i++){
+//             for(int j=0; j<=i/2 ; j++){
+//                 r[j]=r[i-j]=(long) r[j]* (long)i/(i-j);
+//             }
+//         }
+//         return r;
+//     }
+// };
 
 // class Solution {
 // public:
