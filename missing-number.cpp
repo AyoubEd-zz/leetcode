@@ -1,3 +1,7 @@
+/*https://leetcode.com/problems/missing-number/
+* Sum
+* Bit manip XOR
+*/
 class Solution {
 public:
     int missingNumber(vector<int>& nums) {
@@ -11,3 +15,14 @@ public:
         return sum-s;
     }
 };
+
+/*
+   int missingNumber(vector<int>& nums) {
+       int d = nums.size(); i=0; res=d;
+       while(i<d){
+           res = res ^ i ^ nums[i];
+           i++;
+       }
+       return res;
+   } 
+*
