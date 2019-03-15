@@ -1,7 +1,7 @@
 /*https://leetcode.com/problems/sort-array-by-parity
  * Solution: Two Pointer and swapping like QuickSort
-*
-*/
+ */
+
 class Solution {
 public:
     vector<int> sortArrayByParity(vector<int>& A) {
