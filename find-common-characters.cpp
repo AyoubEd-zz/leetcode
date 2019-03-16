@@ -13,7 +13,12 @@ public:
             for(int i=0;i<26;i++) occ[i] = min(occ[i], occ_tmp[i]);
         }
         for(int i=0;i<26;i++){
-            if(occ[i]!=0){for(int j=0;j<occ[i];j++)v.push_back(string(1, (char)i+'a'));}
+            if(occ[i]!=0){
+                  while(occ[i]--){
+                          v.push_back(string(1, (char)i+'a'));
+                          occ[i]--;
+                  }      
+            }
         }
         return v;
     }
