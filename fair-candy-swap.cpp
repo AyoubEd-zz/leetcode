@@ -6,21 +6,18 @@
 class Solution {
 public:
     vector<int> fairCandySwap(vector<int>& A, vector<int>& B) {
-        bitset<200002> bf;
-
-        int sumA = 0, sumB = 0;
-        for(auto n: A) {
-            sumA += n;
+        int sum1=0, sum2=0, val;
+        bitset<100001> st;
+        for(int a:A){
+            st.set(a);
+            sum1+=a;
         }
-        for(auto n: B) {
-            sumB += n;
-            bf.set(n);
+        for(int b:B) sum2+=b;
+        val = (sum1-sum2)/2;
+        
+        for(int b:B){
+            if(b+val>0 && b+val<= 100000 && st.test(b+val)) return {b+val, b};
         }
-
-        for(int i:A){
-            int det = i+((sumB-sumA)/2);
-            if(det>0 && bf.test(det)) return {i, (sumB-sumA)/2+i};
-        }
-        return {};
+        return {0, 0};
     }
 };
