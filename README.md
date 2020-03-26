@@ -6,8 +6,6 @@
 ![Progress](https://img.shields.io/badge/progress-1392%20%2F%201392-ff69b4.svg)&nbsp;
 [![SayThanks](https://img.shields.io/badge/say-thanks-ff69f4.svg)](https://saythanks.io/to/kamyu104)&nbsp;
 ![Travis](https://travis-ci.org/kamyu104/LeetCode-Solutions.svg?branch=master)<br>
-![Total](https://visitor-count-badge.herokuapp.com/total.svg?repo_id=kamyu104.leetcode.solutions)&nbsp;
-![Today](https://visitor-count-badge.herokuapp.com/today.svg?repo_id=kamyu104.leetcode.solutions)
 
 * Since free questions may be even mistakenly taken down by some companies, only solutions will be posted on now.
 * Hope you enjoy the journey of learning data structures and algorithms.
