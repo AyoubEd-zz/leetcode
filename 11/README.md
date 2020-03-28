@@ -21,7 +21,7 @@ Now, we have to decide how are we going to increase or descrease the position of
 
 If we are in the position (a, d), we have to check (a, c) (b, d) and (b, c). But here we find a second observation:
 
-![Diagram 4](https://imgur.com/kL8JCyi.png)
+![Diagram 4](https://imgur.com/89HItDy.png)
 
 For the smaller vertical line (in this case a), there's no need to check (a, c) because S2 will be always bigger than S1. So we increase the first pointer and we'll be able to asses (b, c) and (b, d).
 
