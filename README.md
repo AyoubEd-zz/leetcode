@@ -51,6 +51,7 @@
 ## Two Pointers
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
-0003| [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Golang](./3/longest-substring-without-repeating-characters.go) | _O(n)_ | _O(1)_ | Medium ||
-0011| [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [Golang](./11/container-with-most-water.go) | _O(n)_ | _O(1)_ | Medium ||
+0003| [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Golang](./3) | _O(n)_ | _O(1)_ | Medium ||
+0011| [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [Golang](./11) | _O(n)_ | _O(1)_ | Medium ||
+0016| [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | [Golang](./16) | _O(n^2)_ | _O(n)_ | Medium ||
 
