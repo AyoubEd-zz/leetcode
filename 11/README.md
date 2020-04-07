@@ -8,6 +8,10 @@ The first observation we can make is that if the heights of the vertical lines i
 
 ![Diagram 1](https://imgur.com/T8ZXEZ5.png)
 
+<p align="center"> 
+<img src="https://imgur.com/T8ZXEZ5.png">
+</p>
+
 
 Hence, we will start with two pointers at the widest position(0, n), and keep narrowing down going only to taller vertical lines.
 
