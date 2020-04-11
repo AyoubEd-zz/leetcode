@@ -47,7 +47,3 @@
 
 * [Shell Script](https://github.com/ayoubed/leetcode#shell-script)
 
-## Linked List
-|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
-|-----|---------------- | --------------- | --------------- | --------------- | ------------- |
-0876| [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)| [Golang](./876) | _O(N)_ | _O(1)_ | Easy
