@@ -47,11 +47,15 @@
 
 * [Shell Script](https://github.com/ayoubed/leetcode#shell-script)
 
-## Two Pointers
-|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
-|-----|---------------- | --------------- | --------------- | --------------- | ------------- |
-0011| [Container With Most Water](https://leetcode.com/problems/container-with-most-water/solution/)| [Golang](./11) | _O(N)_ | _O(1)_ | Medium
 ## Linked List
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
 0876| [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)| [Golang](./876) | _O(N)_ | _O(1)_ | Easy
+## Two Pointers
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |
+0011| [Container With Most Water](https://leetcode.com/problems/container-with-most-water/solution/)| [Golang](./11) | _O(N)_ | _O(1)_ | Medium
+## String
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |
+1119| [Remove Vowels from a String](https://leetcode.com/problems/remove-vowels-from-a-string)| [Golang](./1119) | _O(N)_ | _O(N)_ | Easy
