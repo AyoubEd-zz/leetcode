@@ -13,6 +13,21 @@ import (
 	"github.com/gosimple/slug"
 )
 
+var LANGS = map[string]string{
+	"golang": "Golang",
+	"go":     "Golang",
+	"python": "Python",
+	"cpp":    "CPP",
+	"java":   "Java",
+}
+
+var EXTENSIONS = map[string]string{
+	"Golang": ".go",
+	"Python": ".py",
+	"CPP":    ".cpp",
+	"Java":   ".java",
+}
+
 type problemInfo struct {
 	Number          string
 	Name            string
@@ -29,10 +44,9 @@ func main() {
 	var pi problemInfo
 	pi = readInfo()
 
-	path, err := createProblemDir(pi.Name, pi.Number)
+	path, err := createProblemDir(pi.Name, pi.Number, pi.Lang)
 	if err != nil {
 		color.Red("Couldn't create directory: %v", err)
-		return
 	}
 	color.Green("Created problem directory ...\n")
 
@@ -48,19 +62,19 @@ func main() {
 	}
 	color.Yellow("Added problem to CSV ...\n")
 
-	if err := generateReadme(); err != nil {
+	if err := generateReadme("readmetemplate.md", "problems.csv"); err != nil {
 		color.Red("Couldn't add problem to global README.md: %v", err)
 		return
 	}
 	color.Yellow("Added problem to global README.md ...\n")
 }
 
-func createProblemDir(name, number string) (string, error) {
+func createProblemDir(name, number, lang string) (string, error) {
 
 	name = slug.Make(name)
 	path := fmt.Sprintf("../%s/", number)
 
-	file := name + ".go"
+	file := name + EXTENSIONS[lang]
 
 	if err := os.Mkdir(path, 0777); err != nil {
 		return "", err
@@ -106,13 +120,13 @@ func addProblemToCSV(path, name, number, url, difficulty, timecomplexity, spacec
 	return nil
 }
 
-func generateReadme() error {
-	header, err := ioutil.ReadFile("readmetemplate.md")
+func generateReadme(template, csvfile string) error {
+	header, err := ioutil.ReadFile(template)
 	if err != nil {
 		return err
 	}
 
-	body, err := createMarkdownFromCSV("problems.csv")
+	body, err := createMarkdownFromCSV(csvfile)
 	if err != nil {
 		return err
 	}
@@ -202,7 +216,7 @@ func readInfo() problemInfo {
 	fmt.Printf("Tag: ")
 	tag := readNewInfo(reader)
 
-	return problemInfo{number, name, statement, url, timecomplexity, spacecomplexity, lang, difficulty, tag}
+	return problemInfo{number, name, statement, url, timecomplexity, spacecomplexity, LANGS[strings.ToLower(lang)], difficulty, tag}
 }
 
 func readNewInfo(reader *bufio.Reader) string {
