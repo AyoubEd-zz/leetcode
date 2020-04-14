@@ -54,8 +54,12 @@
 ## Two Pointers
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
-0011| [Container With Most Water](https://leetcode.com/problems/container-with-most-water/solution/)| [Golang](./11) | _O(N)_ | _O(1)_ | Medium
+0011| [Container With Most Water](https://leetcode.com/problems/container-with-most-water/solution/)| [go](./11) | _O(N)_ | _O(1)_ | Medium
 ## String
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
-1119| [Remove Vowels from a String](https://leetcode.com/problems/remove-vowels-from-a-string)| [Golang](./1119) | _O(N)_ | _O(N)_ | Easy
+1119| [Remove Vowels from a String](https://leetcode.com/problems/remove-vowels-from-a-string)| [Golang](./1119) | _O(N)_ | _O(N)_ | 
+## Hash Table
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |
+0525| [Contiguous Array](https://leetcode.com/problems/contiguous-array/solution/)| [Golang](./525) | _O(N)_ | _O(N)_ | Medium
