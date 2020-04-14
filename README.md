@@ -50,16 +50,17 @@
 ## Linked List
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
-0876| [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)| [Golang](./876) | _O(N)_ | _O(1)_ | Easy
+0876| [Middle of the Linked List                           ](https://leetcode.com/problems/middle-of-the-linked-list/)| [Golang](./876) | _O(N)_ | _O(1)_ | Easy
 ## Two Pointers
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
-0011| [Container With Most Water](https://leetcode.com/problems/container-with-most-water/solution/)| [Golang](./11) | _O(N)_ | _O(1)_ | Medium
+0011| [Container With Most Water                           ](https://leetcode.com/problems/container-with-most-water/solution/)| [go](./11) | _O(N)_ | _O(1)_ | Medium
 ## String
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
-1119| [Remove Vowels from a String](https://leetcode.com/problems/remove-vowels-from-a-string)| [Golang](./1119) | _O(N)_ | _O(N)_ | Easy
+1119| [Remove Vowels from a String                         ](https://leetcode.com/problems/remove-vowels-from-a-string)| [Golang](./1119) | _O(N)_ | _O(N)_ | 
 ## Hash Table
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
-0525| [Contiguous Array](https://leetcode.com/problems/contiguous-array/solution/)| [Golang](./525) | _O(N)_ | _O(N)_ | Medium
+0525| [Contiguous Array                                    ](https://leetcode.com/problems/contiguous-array/solution/)| [Golang](./525) | _O()_ | _O(N)_ | Medium
+0325| [Maximum Size Subarray Sum Equals k                  ](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/)| [Golang](./325) | _O(N)_ | _O(N)_ | Medium
