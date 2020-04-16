@@ -6,12 +6,14 @@ Given an array nums of n integers where n > 1,  return an array output such that
 
 let's see the product for each element in the array this way:
 
+```
 arr = [1, 2, 3, 4]
 
            | 1 |  2 * 3 * 4
         1  | 2 |  3 * 4
     1 * 2  | 3 |  4
 1 * 2 * 3  | 4 | 
+```
 
 We must note that we were instructed not to use division here.
 
