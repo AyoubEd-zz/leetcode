@@ -51,6 +51,7 @@
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
 1119| [Remove Vowels from a String                         ](https://leetcode.com/problems/remove-vowels-from-a-string)| [Golang](./1119) | _O(N)_ | _O(N)_ | Easy
+0028| [Implement strStr()                                  ](https://leetcode.com/problems/implement-strstr)| [Golang](./28) | _O(N)_ | _O(1)_ | Easy
 ## Hash Table
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |

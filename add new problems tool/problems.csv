@@ -5,3 +5,4 @@
 325,Maximum Size Subarray Sum Equals k,Golang,N,N,Medium,Hash Table,https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/
 238,Product of Array Except Self,Golang,N,N,Medium,Array,https://leetcode.com/problems/product-of-array-except-self
 200,Number of Islands,Golang,M×N,min(M×N),Medium,Breadth-First Search,https://leetcode.com/problems/number-of-islands
+28,Implement strStr(),Golang,N,1,Easy,String,https://leetcode.com/problems/implement-strstr
