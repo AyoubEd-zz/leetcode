@@ -47,24 +47,28 @@
 
 * [Shell Script](https://github.com/ayoubed/leetcode#shell-script)
 
-## Two Pointers
-|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
-|-----|---------------- | --------------- | --------------- | --------------- | ------------- |
-0011| [Container With Most Water                           ](https://leetcode.com/problems/container-with-most-water/solution/)| [go](./11) | _O(N)_ | _O(1)_ | Medium
 ## String
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
-1119| [Remove Vowels from a String                         ](https://leetcode.com/problems/remove-vowels-from-a-string)| [Golang](./1119) | _O(N)_ | _O(N)_ | 
+1119| [Remove Vowels from a String                         ](https://leetcode.com/problems/remove-vowels-from-a-string)| [Golang](./1119) | _O(N)_ | _O(N)_ | Easy
 ## Hash Table
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
-0525| [Contiguous Array                                    ](https://leetcode.com/problems/contiguous-array/solution/)| [Golang](./525) | _O()_ | _O(N)_ | Medium
+0525| [Contiguous Array                                    ](https://leetcode.com/problems/contiguous-array/solution/)| [Golang](./525) | _O(N)_ | _O(N)_ | Medium
 0325| [Maximum Size Subarray Sum Equals k                  ](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/)| [Golang](./325) | _O(N)_ | _O(N)_ | Medium
 ## Array
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
 0238| [Product of Array Except Self                        ](https://leetcode.com/problems/product-of-array-except-self)| [Golang](./238) | _O(N)_ | _O(N)_ | Medium
+## Breadth-First Search
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |
+0200| [Number of Islands                                   ](https://leetcode.com/problems/number-of-islands)| [Golang](./200) | _O(M×N)_ | _O(min(M×N))_ | Medium
 ## Linked List
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
 0876| [Middle of the Linked List                           ](https://leetcode.com/problems/middle-of-the-linked-list/)| [Golang](./876) | _O(N)_ | _O(1)_ | Easy
+## Two Pointers
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |
+0011| [Container With Most Water                           ](https://leetcode.com/problems/container-with-most-water/solution/)| [go](./11) | _O(N)_ | _O(1)_ | Medium
