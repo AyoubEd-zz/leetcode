@@ -165,7 +165,7 @@ func createMarkdownFromCSV(filepath string) ([]byte, error) {
 
 	for _, line := range lines {
 		number, _ := strconv.Atoi(line[0])
-		formattedLine := fmt.Sprintf("%04d| [%s](%s)| [%s](./%s) | _O(%s)_ | _O(%s)_ | %s\n", number, line[1], line[7], line[2], line[0], line[3], line[4], line[5])
+		formattedLine := fmt.Sprintf("%04d| [%-52s](%s)| [%s](./%s) | _O(%s)_ | _O(%s)_ | %s\n", number, line[1], line[7], line[2], line[0], line[3], line[4], line[5])
 
 		if val, ok := mp[line[6]]; ok {
 			mp[line[6]] = append(val, formattedLine)
