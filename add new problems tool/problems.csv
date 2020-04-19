@@ -1,8 +1,10 @@
 876,Middle of the Linked List,Golang,N,1,Easy,Linked List,https://leetcode.com/problems/middle-of-the-linked-list/
-11,Container With Most Water,go,N,1,Medium,Two Pointers,https://leetcode.com/problems/container-with-most-water/solution/
+11,Container With Most Water,Golang,N,1,Medium,Two Pointers,https://leetcode.com/problems/container-with-most-water/solution/
 1119,Remove Vowels from a String,Golang,N,N,Easy,String,https://leetcode.com/problems/remove-vowels-from-a-string
 525,Contiguous Array,Golang,N,N,Medium,Hash Table,https://leetcode.com/problems/contiguous-array/solution/
 325,Maximum Size Subarray Sum Equals k,Golang,N,N,Medium,Hash Table,https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/
 238,Product of Array Except Self,Golang,N,N,Medium,Array,https://leetcode.com/problems/product-of-array-except-self
 200,Number of Islands,Golang,M×N,min(M×N),Medium,Breadth-First Search,https://leetcode.com/problems/number-of-islands
 28,Implement strStr(),Golang,N,1,Easy,String,https://leetcode.com/problems/implement-strstr
+2,Add Two Numbers,Golang,max(m n),max(m n),Medium,Linked List,https://leetcode.com/problems/add-two-numbers
+3,Longest Substring Without Repeating Characters,Golang,N,min(alphabet_size n),Medium,Two Pointers,https://leetcode.com/problems/longest-substring-without-repeating-characters

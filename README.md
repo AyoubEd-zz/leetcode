@@ -47,6 +47,16 @@
 
 * [Shell Script](https://github.com/ayoubed/leetcode#shell-script)
 
+## Linked List
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |
+0876| [Middle of the Linked List                           ](https://leetcode.com/problems/middle-of-the-linked-list/)| [Golang](./876) | _O(N)_ | _O(1)_ | Easy
+0002| [Add Two Numbers                                     ](https://leetcode.com/problems/add-two-numbers)| [Golang](./2) | _O(max(m n))_ | _O(max(m n))_ | Medium
+## Two Pointers
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |
+0011| [Container With Most Water                           ](https://leetcode.com/problems/container-with-most-water/solution/)| [go](./11) | _O(N)_ | _O(1)_ | Medium
+0003| [Longest Substring Without Repeating Characters      ](https://leetcode.com/problems/longest-substring-without-repeating-characters)| [Golang](./3) | _O(N)_ | _O(min(alphabet_size n))_ | Medium
 ## String
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
@@ -65,11 +75,3 @@
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
 0200| [Number of Islands                                   ](https://leetcode.com/problems/number-of-islands)| [Golang](./200) | _O(M×N)_ | _O(min(M×N))_ | Medium
-## Linked List
-|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
-|-----|---------------- | --------------- | --------------- | --------------- | ------------- |
-0876| [Middle of the Linked List                           ](https://leetcode.com/problems/middle-of-the-linked-list/)| [Golang](./876) | _O(N)_ | _O(1)_ | Easy
-## Two Pointers
-|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
-|-----|---------------- | --------------- | --------------- | --------------- | ------------- |
-0011| [Container With Most Water                           ](https://leetcode.com/problems/container-with-most-water/solution/)| [go](./11) | _O(N)_ | _O(1)_ | Medium
