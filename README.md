@@ -47,6 +47,10 @@
 
 * [Shell Script](https://github.com/ayoubed/leetcode#shell-script)
 
+## Math
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |
+0007| [Reverse Integer                                     ](https://leetcode.com/problems/reverse-integer)| [Golang](./7) | _O(log(n))_ | _O(1)_ | Easy
 ## Linked List
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
@@ -55,7 +59,7 @@
 ## Two Pointers
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
-0011| [Container With Most Water                           ](https://leetcode.com/problems/container-with-most-water/solution/)| [go](./11) | _O(N)_ | _O(1)_ | Medium
+0011| [Container With Most Water                           ](https://leetcode.com/problems/container-with-most-water/solution/)| [Golang](./11) | _O(N)_ | _O(1)_ | Medium
 0003| [Longest Substring Without Repeating Characters      ](https://leetcode.com/problems/longest-substring-without-repeating-characters)| [Golang](./3) | _O(N)_ | _O(min(alphabet_size n))_ | Medium
 ## String
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
