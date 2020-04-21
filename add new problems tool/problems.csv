@@ -9,3 +9,4 @@
 2,Add Two Numbers,Golang,max(m n),max(m n),Medium,Linked List,https://leetcode.com/problems/add-two-numbers
 3,Longest Substring Without Repeating Characters,Golang,N,min(alphabet_size n),Medium,Two Pointers,https://leetcode.com/problems/longest-substring-without-repeating-characters
 7,Reverse Integer,Golang,log(n),1,Easy,Math,https://leetcode.com/problems/reverse-integer
+5,Longest Palindromic Substring,Golang,N^2,1,Medium,String,https://leetcode.com/problems/longest-palindromic-substring

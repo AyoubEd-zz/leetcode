@@ -47,6 +47,14 @@
 
 * [Shell Script](https://github.com/ayoubed/leetcode#shell-script)
 
+## Array
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |
+0238| [Product of Array Except Self                        ](https://leetcode.com/problems/product-of-array-except-self)| [Golang](./238) | _O(N)_ | _O(N)_ | Medium
+## Breadth-First Search
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |
+0200| [Number of Islands                                   ](https://leetcode.com/problems/number-of-islands)| [Golang](./200) | _O(M×N)_ | _O(min(M×N))_ | Medium
 ## Math
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
@@ -66,16 +74,9 @@
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
 1119| [Remove Vowels from a String                         ](https://leetcode.com/problems/remove-vowels-from-a-string)| [Golang](./1119) | _O(N)_ | _O(N)_ | Easy
 0028| [Implement strStr()                                  ](https://leetcode.com/problems/implement-strstr)| [Golang](./28) | _O(N)_ | _O(1)_ | Easy
+0005| [Longest Palindromic Substring                       ](https://leetcode.com/problems/longest-palindromic-substring)| [Golang](./5) | _O(N^2)_ | _O(1)_ | Medium
 ## Hash Table
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
 0525| [Contiguous Array                                    ](https://leetcode.com/problems/contiguous-array/solution/)| [Golang](./525) | _O(N)_ | _O(N)_ | Medium
 0325| [Maximum Size Subarray Sum Equals k                  ](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/)| [Golang](./325) | _O(N)_ | _O(N)_ | Medium
-## Array
-|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
-|-----|---------------- | --------------- | --------------- | --------------- | ------------- |
-0238| [Product of Array Except Self                        ](https://leetcode.com/problems/product-of-array-except-self)| [Golang](./238) | _O(N)_ | _O(N)_ | Medium
-## Breadth-First Search
-|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
-|-----|---------------- | --------------- | --------------- | --------------- | ------------- |
-0200| [Number of Islands                                   ](https://leetcode.com/problems/number-of-islands)| [Golang](./200) | _O(M×N)_ | _O(min(M×N))_ | Medium
