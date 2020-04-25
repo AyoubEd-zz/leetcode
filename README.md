@@ -52,6 +52,7 @@
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
 0525| [Contiguous Array                                    ](https://leetcode.com/problems/contiguous-array/solution/)| [Golang](./525) | _O(N)_ | _O(N)_ | Medium
 0325| [Maximum Size Subarray Sum Equals k                  ](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/)| [Golang](./325) | _O(N)_ | _O(N)_ | Medium
+0560| [Subarray Sum Equals K                               ](https://leetcode.com/problems/subarray-sum-equals-k)| [Golang](./560) | _O(N)_ | _O(N)_ | Medium
 ## Array
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
@@ -67,7 +68,7 @@
 ## Dynamic Programming
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
-1235| [Maximum Profit in Job Scheduling                    ](https://leetcode.com/problems/maximum-profit-in-job-scheduling)| [Golang](./1235) | _O(n*log(n))_ | _O(N)_ | Hard
+1235| [Maximum Profit in Job Scheduling                    ](https://leetcode.com/problems/maximum-profit-in-job-scheduling)| [Golang](./1235) | _O(N*log(N))_ | _O(N)_ | Hard
 ## Linked List
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |

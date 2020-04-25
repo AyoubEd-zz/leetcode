@@ -10,4 +10,5 @@
 3,Longest Substring Without Repeating Characters,Golang,N,min(alphabet_size n),Medium,Two Pointers,https://leetcode.com/problems/longest-substring-without-repeating-characters
 7,Reverse Integer,Golang,log(n),1,Easy,Math,https://leetcode.com/problems/reverse-integer
 5,Longest Palindromic Substring,Golang,N^2,1,Medium,String,https://leetcode.com/problems/longest-palindromic-substring
-1235,Maximum Profit in Job Scheduling,Golang,n*log(n),N,Hard,Dynamic Programming,https://leetcode.com/problems/maximum-profit-in-job-scheduling
+1235,Maximum Profit in Job Scheduling,Golang,N*log(N),N,Hard,Dynamic Programming,https://leetcode.com/problems/maximum-profit-in-job-scheduling
+560,Subarray Sum Equals K,Golang,N,N,Medium,Hash Table,https://leetcode.com/problems/subarray-sum-equals-k
