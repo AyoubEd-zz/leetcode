@@ -47,6 +47,12 @@
 
 * [Shell Script](https://github.com/ayoubed/leetcode#shell-script)
 
+## String
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |
+1119| [Remove Vowels from a String                         ](https://leetcode.com/problems/remove-vowels-from-a-string)| [Golang](./1119) | _O(N)_ | _O(N)_ | Easy
+0028| [Implement strStr()                                  ](https://leetcode.com/problems/implement-strstr)| [Golang](./28) | _O(N)_ | _O(1)_ | Easy
+0005| [Longest Palindromic Substring                       ](https://leetcode.com/problems/longest-palindromic-substring)| [Golang](./5) | _O(N^2)_ | _O(1)_ | Medium
 ## Hash Table
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
@@ -65,10 +71,6 @@
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
 0007| [Reverse Integer                                     ](https://leetcode.com/problems/reverse-integer)| [Golang](./7) | _O(log(n))_ | _O(1)_ | Easy
-## Dynamic Programming
-|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
-|-----|---------------- | --------------- | --------------- | --------------- | ------------- |
-1235| [Maximum Profit in Job Scheduling                    ](https://leetcode.com/problems/maximum-profit-in-job-scheduling)| [Golang](./1235) | _O(N*log(N))_ | _O(N)_ | Hard
 ## Linked List
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
@@ -79,9 +81,11 @@
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
 0011| [Container With Most Water                           ](https://leetcode.com/problems/container-with-most-water/solution/)| [Golang](./11) | _O(N)_ | _O(1)_ | Medium
 0003| [Longest Substring Without Repeating Characters      ](https://leetcode.com/problems/longest-substring-without-repeating-characters)| [Golang](./3) | _O(N)_ | _O(min(alphabet_size n))_ | Medium
-## String
+## Dynamic Programming
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
-1119| [Remove Vowels from a String                         ](https://leetcode.com/problems/remove-vowels-from-a-string)| [Golang](./1119) | _O(N)_ | _O(N)_ | Easy
-0028| [Implement strStr()                                  ](https://leetcode.com/problems/implement-strstr)| [Golang](./28) | _O(N)_ | _O(1)_ | Easy
-0005| [Longest Palindromic Substring                       ](https://leetcode.com/problems/longest-palindromic-substring)| [Golang](./5) | _O(N^2)_ | _O(1)_ | Medium
+1235| [Maximum Profit in Job Scheduling                    ](https://leetcode.com/problems/maximum-profit-in-job-scheduling)| [Golang](./1235) | _O(N*log(N))_ | _O(N)_ | Hard
+## Union Find
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |
+0547| [Friend Circles                                      ](https://leetcode.com/problems/friend-circles/solution)| [Golang](./547) | _O(N^3)_ | _O(N)_ | Medium
