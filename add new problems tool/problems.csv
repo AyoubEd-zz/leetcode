@@ -13,3 +13,4 @@
 1235,Maximum Profit in Job Scheduling,Golang,N*log(N),N,Hard,Dynamic Programming,https://leetcode.com/problems/maximum-profit-in-job-scheduling
 560,Subarray Sum Equals K,Golang,N,N,Medium,Hash Table,https://leetcode.com/problems/subarray-sum-equals-k
 547,Friend Circles,Golang,N^3,N,Medium,Union Find,https://leetcode.com/problems/friend-circles/solution
+781,Number Complement,Golang,1,1,Easy,Bit Manipulation,https://leetcode.com/problems/number-complement/solution
