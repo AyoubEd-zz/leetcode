@@ -14,3 +14,4 @@
 560,Subarray Sum Equals K,Golang,N,N,Medium,Hash Table,https://leetcode.com/problems/subarray-sum-equals-k
 547,Friend Circles,Golang,N^3,N,Medium,Union Find,https://leetcode.com/problems/friend-circles/solution
 781,Number Complement,Golang,1,1,Easy,Bit Manipulation,https://leetcode.com/problems/number-complement/solution
+243,Shortest Word Distance,Golang,N,1,Easy,Array,https://leetcode.com/problems/shortest-word-distance

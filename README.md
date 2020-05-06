@@ -47,14 +47,6 @@
 
 * [Shell Script](https://github.com/ayoubed/leetcode#shell-script)
 
-## Union Find
-|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
-|-----|---------------- | --------------- | --------------- | --------------- | ------------- |
-0547| [Friend Circles                                      ](https://leetcode.com/problems/friend-circles/solution)| [Golang](./547) | _O(N^3)_ | _O(N)_ | Medium
-## Bit Manipulation
-|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
-|-----|---------------- | --------------- | --------------- | --------------- | ------------- |
-0781| [Number Complement                                   ](https://leetcode.com/problems/number-complement/solution)| [Golang](./781) | _O(1)_ | _O(1)_ | Easy
 ## Linked List
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
@@ -75,14 +67,15 @@
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
 0238| [Product of Array Except Self                        ](https://leetcode.com/problems/product-of-array-except-self)| [Golang](./238) | _O(N)_ | _O(N)_ | Medium
+0243| [Shortest Word Distance                              ](https://leetcode.com/problems/shortest-word-distance)| [Golang](./243) | _O(N)_ | _O(1)_ | Easy
 ## Math
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
 0007| [Reverse Integer                                     ](https://leetcode.com/problems/reverse-integer)| [Golang](./7) | _O(log(n))_ | _O(1)_ | Easy
-## Dynamic Programming
+## Bit Manipulation
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
-1235| [Maximum Profit in Job Scheduling                    ](https://leetcode.com/problems/maximum-profit-in-job-scheduling)| [Golang](./1235) | _O(N*log(N))_ | _O(N)_ | Hard
+0781| [Number Complement                                   ](https://leetcode.com/problems/number-complement/solution)| [Golang](./781) | _O(1)_ | _O(1)_ | Easy
 ## Hash Table
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
@@ -93,3 +86,11 @@
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
 0200| [Number of Islands                                   ](https://leetcode.com/problems/number-of-islands)| [Golang](./200) | _O(M×N)_ | _O(min(M×N))_ | Medium
+## Dynamic Programming
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |
+1235| [Maximum Profit in Job Scheduling                    ](https://leetcode.com/problems/maximum-profit-in-job-scheduling)| [Golang](./1235) | _O(N*log(N))_ | _O(N)_ | Hard
+## Union Find
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |
+0547| [Friend Circles                                      ](https://leetcode.com/problems/friend-circles/solution)| [Golang](./547) | _O(N^3)_ | _O(N)_ | Medium
