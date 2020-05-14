@@ -16,3 +16,4 @@
 781,Number Complement,Golang,1,1,Easy,Bit Manipulation,https://leetcode.com/problems/number-complement/solution
 243,Shortest Word Distance,Golang,N,1,Easy,Array,https://leetcode.com/problems/shortest-word-distance
 20,Valid Parentheses,Golang,N,N,Easy,Stack,https://leetcode.com/problems/valid-parentheses
+21,Merge Two Sorted Lists,Golang,N + M,1,Easy,Linked List,https://leetcode.com/problems/merge-two-sorted-lists
