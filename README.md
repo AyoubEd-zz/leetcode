@@ -47,12 +47,11 @@
 
 * [Shell Script](https://github.com/ayoubed/leetcode#shell-script)
 
-## Hash Table
+## Tree
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
-0525| [Contiguous Array                                    ](https://leetcode.com/problems/contiguous-array/solution/)| [Golang](./525) | _O(N)_ | _O(N)_ | Medium
-0325| [Maximum Size Subarray Sum Equals k                  ](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/)| [Golang](./325) | _O(N)_ | _O(N)_ | Medium
-0560| [Subarray Sum Equals K                               ](https://leetcode.com/problems/subarray-sum-equals-k)| [Golang](./560) | _O(N)_ | _O(N)_ | Medium
+0104| [Maximum Depth of Binary Tree                        ](https://leetcode.com/problems/maximum-depth-of-binary-tree)| [CPP](./104) | _O(N)_ | _O(N || logN)_ | Easy
+0543| [Diameter of Binary Tree                             ](https://leetcode.com/problems/diameter-of-binary-tree)| [CPP](./543) | _O(N)_ | _O(N)_ | Easy
 ## Array
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
@@ -68,14 +67,18 @@
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
 0007| [Reverse Integer                                     ](https://leetcode.com/problems/reverse-integer)| [Golang](./7) | _O(log(n))_ | _O(1)_ | Easy
-## Dynamic Programming
-|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
-|-----|---------------- | --------------- | --------------- | --------------- | ------------- |
-1235| [Maximum Profit in Job Scheduling                    ](https://leetcode.com/problems/maximum-profit-in-job-scheduling)| [Golang](./1235) | _O(N*log(N))_ | _O(N)_ | Hard
 ## Union Find
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
 0547| [Friend Circles                                      ](https://leetcode.com/problems/friend-circles/solution)| [Golang](./547) | _O(N^3)_ | _O(N)_ | Medium
+## Bit Manipulation
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |
+0781| [Number Complement                                   ](https://leetcode.com/problems/number-complement/solution)| [Golang](./781) | _O(1)_ | _O(1)_ | Easy
+## Stack
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |
+0020| [Valid Parentheses                                   ](https://leetcode.com/problems/valid-parentheses)| [Golang](./20) | _O(N)_ | _O(N)_ | Easy
 ## Linked List
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
@@ -94,15 +97,13 @@
 1119| [Remove Vowels from a String                         ](https://leetcode.com/problems/remove-vowels-from-a-string)| [Golang](./1119) | _O(N)_ | _O(N)_ | Easy
 0028| [Implement strStr()                                  ](https://leetcode.com/problems/implement-strstr)| [Golang](./28) | _O(N)_ | _O(1)_ | Easy
 0005| [Longest Palindromic Substring                       ](https://leetcode.com/problems/longest-palindromic-substring)| [Golang](./5) | _O(N^2)_ | _O(1)_ | Medium
-## Bit Manipulation
+## Hash Table
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
-0781| [Number Complement                                   ](https://leetcode.com/problems/number-complement/solution)| [Golang](./781) | _O(1)_ | _O(1)_ | Easy
-## Stack
+0525| [Contiguous Array                                    ](https://leetcode.com/problems/contiguous-array/solution/)| [Golang](./525) | _O(N)_ | _O(N)_ | Medium
+0325| [Maximum Size Subarray Sum Equals k                  ](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/)| [Golang](./325) | _O(N)_ | _O(N)_ | Medium
+0560| [Subarray Sum Equals K                               ](https://leetcode.com/problems/subarray-sum-equals-k)| [Golang](./560) | _O(N)_ | _O(N)_ | Medium
+## Dynamic Programming
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
-0020| [Valid Parentheses                                   ](https://leetcode.com/problems/valid-parentheses)| [Golang](./20) | _O(N)_ | _O(N)_ | Easy
-## Tree
-|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
-|-----|---------------- | --------------- | --------------- | --------------- | ------------- |
-0104| [Maximum Depth of Binary Tree                        ](https://leetcode.com/problems/maximum-depth-of-binary-tree)| [CPP](./104) | _O(N)_ | _O(N || logN)_ | Easy
+1235| [Maximum Profit in Job Scheduling                    ](https://leetcode.com/problems/maximum-profit-in-job-scheduling)| [Golang](./1235) | _O(N*log(N))_ | _O(N)_ | Hard
