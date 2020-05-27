@@ -20,3 +20,4 @@
 19,Remove Nth Node From End of List,Golang,N,1,Medium,Two Pointers,https://leetcode.com/problems/remove-nth-node-from-end-of-list
 53,Maximum Subarray,CPP,N,1,Easy,Array,https://leetcode.com/problems/maximum-subarray/
 152,Maximum Product Subarray,CPP,N,1,Medium,Array,https://leetcode.com/problems/maximum-product-subarray
+104,Maximum Depth of Binary Tree,CPP,N,N || logN,Easy,Tree,https://leetcode.com/problems/maximum-depth-of-binary-tree
