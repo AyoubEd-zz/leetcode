@@ -47,12 +47,6 @@
 
 * [Shell Script](https://github.com/ayoubed/leetcode#shell-script)
 
-## Two Pointers
-|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
-|-----|---------------- | --------------- | --------------- | --------------- | ------------- |
-0011| [Container With Most Water                           ](https://leetcode.com/problems/container-with-most-water/solution/)| [Golang](./11) | _O(N)_ | _O(1)_ | Medium
-0003| [Longest Substring Without Repeating Characters      ](https://leetcode.com/problems/longest-substring-without-repeating-characters)| [Golang](./3) | _O(N)_ | _O(min(alphabet_size n))_ | Medium
-0019| [Remove Nth Node From End of List                    ](https://leetcode.com/problems/remove-nth-node-from-end-of-list)| [Golang](./19) | _O(N)_ | _O(1)_ | Medium
 ## Hash Table
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
@@ -63,27 +57,26 @@
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
 0200| [Number of Islands                                   ](https://leetcode.com/problems/number-of-islands)| [Golang](./200) | _O(M×N)_ | _O(min(M×N))_ | Medium
-## Dynamic Programming
+## Union Find
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
-1235| [Maximum Profit in Job Scheduling                    ](https://leetcode.com/problems/maximum-profit-in-job-scheduling)| [Golang](./1235) | _O(N*log(N))_ | _O(N)_ | Hard
+0547| [Friend Circles                                      ](https://leetcode.com/problems/friend-circles/solution)| [Golang](./547) | _O(N^3)_ | _O(N)_ | Medium
 ## Stack
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
 0020| [Valid Parentheses                                   ](https://leetcode.com/problems/valid-parentheses)| [Golang](./20) | _O(N)_ | _O(N)_ | Easy
-## Tree
-|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
-|-----|---------------- | --------------- | --------------- | --------------- | ------------- |
-0104| [Maximum Depth of Binary Tree                        ](https://leetcode.com/problems/maximum-depth-of-binary-tree)| [CPP](./104) | _O(N)_ | _O(N)_ | Easy
-0543| [Diameter of Binary Tree                             ](https://leetcode.com/problems/diameter-of-binary-tree)| [CPP](./543) | _O(N)_ | _O(N)_ | Easy
-0110| [Balanced Binary Tree                                ](https://leetcode.com/problems/balanced-binary-tree)| [CPP](./110) | _O(N)_ | _O(N)_ | Easy
-0098| [Validate Binary Search Tree                         ](https://leetcode.com/problems/validate-binary-search-tree)| [CPP](./98) | _O(N)_ | _O(N)_ | Medium
 ## Linked List
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
 0876| [Middle of the Linked List                           ](https://leetcode.com/problems/middle-of-the-linked-list/)| [Golang](./876) | _O(N)_ | _O(1)_ | Easy
 0002| [Add Two Numbers                                     ](https://leetcode.com/problems/add-two-numbers)| [Golang](./2) | _O(max(m n))_ | _O(max(m n))_ | Medium
 0021| [Merge Two Sorted Lists                              ](https://leetcode.com/problems/merge-two-sorted-lists)| [Golang](./21) | _O(N + M)_ | _O(1)_ | Easy
+## Two Pointers
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |
+0011| [Container With Most Water                           ](https://leetcode.com/problems/container-with-most-water/solution/)| [Golang](./11) | _O(N)_ | _O(1)_ | Medium
+0003| [Longest Substring Without Repeating Characters      ](https://leetcode.com/problems/longest-substring-without-repeating-characters)| [Golang](./3) | _O(N)_ | _O(min(alphabet_size n))_ | Medium
+0019| [Remove Nth Node From End of List                    ](https://leetcode.com/problems/remove-nth-node-from-end-of-list)| [Golang](./19) | _O(N)_ | _O(1)_ | Medium
 ## String
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
@@ -101,11 +94,19 @@
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
 0007| [Reverse Integer                                     ](https://leetcode.com/problems/reverse-integer)| [Golang](./7) | _O(log(n))_ | _O(1)_ | Easy
-## Union Find
+## Dynamic Programming
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
-0547| [Friend Circles                                      ](https://leetcode.com/problems/friend-circles/solution)| [Golang](./547) | _O(N^3)_ | _O(N)_ | Medium
+1235| [Maximum Profit in Job Scheduling                    ](https://leetcode.com/problems/maximum-profit-in-job-scheduling)| [Golang](./1235) | _O(N*log(N))_ | _O(N)_ | Hard
 ## Bit Manipulation
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
 0781| [Number Complement                                   ](https://leetcode.com/problems/number-complement/solution)| [Golang](./781) | _O(1)_ | _O(1)_ | Easy
+## Tree
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |
+0104| [Maximum Depth of Binary Tree                        ](https://leetcode.com/problems/maximum-depth-of-binary-tree)| [CPP](./104) | _O(N)_ | _O(N)_ | Easy
+0543| [Diameter of Binary Tree                             ](https://leetcode.com/problems/diameter-of-binary-tree)| [CPP](./543) | _O(N)_ | _O(N)_ | Easy
+0110| [Balanced Binary Tree                                ](https://leetcode.com/problems/balanced-binary-tree)| [CPP](./110) | _O(N)_ | _O(N)_ | Easy
+0098| [Validate Binary Search Tree                         ](https://leetcode.com/problems/validate-binary-search-tree)| [CPP](./98) | _O(N)_ | _O(N)_ | Medium
+0199| [Binary Tree Right Side View                         ](https://leetcode.com/problems/binary-tree-right-side-view)| [CPP](./199) | _O(N)_ | _O(N)_ | Medium
