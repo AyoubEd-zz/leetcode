@@ -47,12 +47,24 @@
 
 * [Shell Script](https://github.com/ayoubed/leetcode#shell-script)
 
+## Union Find
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |
+0547| [Friend Circles                                      ](https://leetcode.com/problems/friend-circles/solution)| [Golang](./547) | _O(N^3)_ | _O(N)_ | Medium
 ## Hash Table
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
 0525| [Contiguous Array                                    ](https://leetcode.com/problems/contiguous-array/solution/)| [Golang](./525) | _O(N)_ | _O(N)_ | Medium
 0325| [Maximum Size Subarray Sum Equals k                  ](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/)| [Golang](./325) | _O(N)_ | _O(N)_ | Medium
 0560| [Subarray Sum Equals K                               ](https://leetcode.com/problems/subarray-sum-equals-k)| [Golang](./560) | _O(N)_ | _O(N)_ | Medium
+## Breadth-First Search
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |
+0200| [Number of Islands                                   ](https://leetcode.com/problems/number-of-islands)| [Golang](./200) | _O(M×N)_ | _O(min(M×N))_ | Medium
+## Dynamic Programming
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |
+1235| [Maximum Profit in Job Scheduling                    ](https://leetcode.com/problems/maximum-profit-in-job-scheduling)| [Golang](./1235) | _O(N*log(N))_ | _O(N)_ | Hard
 ## Array
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
@@ -60,6 +72,10 @@
 0243| [Shortest Word Distance                              ](https://leetcode.com/problems/shortest-word-distance)| [Golang](./243) | _O(N)_ | _O(1)_ | Easy
 0053| [Maximum Subarray                                    ](https://leetcode.com/problems/maximum-subarray/)| [CPP](./53) | _O(N)_ | _O(1)_ | Easy
 0152| [Maximum Product Subarray                            ](https://leetcode.com/problems/maximum-product-subarray)| [CPP](./152) | _O(N)_ | _O(1)_ | Medium
+## Math
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |
+0007| [Reverse Integer                                     ](https://leetcode.com/problems/reverse-integer)| [Golang](./7) | _O(log(n))_ | _O(1)_ | Easy
 ## Bit Manipulation
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
@@ -68,34 +84,6 @@
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
 0020| [Valid Parentheses                                   ](https://leetcode.com/problems/valid-parentheses)| [Golang](./20) | _O(N)_ | _O(N)_ | Easy
-## Linked List
-|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
-|-----|---------------- | --------------- | --------------- | --------------- | ------------- |
-0876| [Middle of the Linked List                           ](https://leetcode.com/problems/middle-of-the-linked-list/)| [Golang](./876) | _O(N)_ | _O(1)_ | Easy
-0002| [Add Two Numbers                                     ](https://leetcode.com/problems/add-two-numbers)| [Golang](./2) | _O(max(m n))_ | _O(max(m n))_ | Medium
-0021| [Merge Two Sorted Lists                              ](https://leetcode.com/problems/merge-two-sorted-lists)| [Golang](./21) | _O(N + M)_ | _O(1)_ | Easy
-## String
-|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
-|-----|---------------- | --------------- | --------------- | --------------- | ------------- |
-1119| [Remove Vowels from a String                         ](https://leetcode.com/problems/remove-vowels-from-a-string)| [Golang](./1119) | _O(N)_ | _O(N)_ | Easy
-0028| [Implement strStr()                                  ](https://leetcode.com/problems/implement-strstr)| [Golang](./28) | _O(N)_ | _O(1)_ | Easy
-0005| [Longest Palindromic Substring                       ](https://leetcode.com/problems/longest-palindromic-substring)| [Golang](./5) | _O(N^2)_ | _O(1)_ | Medium
-## Breadth-First Search
-|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
-|-----|---------------- | --------------- | --------------- | --------------- | ------------- |
-0200| [Number of Islands                                   ](https://leetcode.com/problems/number-of-islands)| [Golang](./200) | _O(M×N)_ | _O(min(M×N))_ | Medium
-## Math
-|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
-|-----|---------------- | --------------- | --------------- | --------------- | ------------- |
-0007| [Reverse Integer                                     ](https://leetcode.com/problems/reverse-integer)| [Golang](./7) | _O(log(n))_ | _O(1)_ | Easy
-## Dynamic Programming
-|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
-|-----|---------------- | --------------- | --------------- | --------------- | ------------- |
-1235| [Maximum Profit in Job Scheduling                    ](https://leetcode.com/problems/maximum-profit-in-job-scheduling)| [Golang](./1235) | _O(N*log(N))_ | _O(N)_ | Hard
-## Union Find
-|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
-|-----|---------------- | --------------- | --------------- | --------------- | ------------- |
-0547| [Friend Circles                                      ](https://leetcode.com/problems/friend-circles/solution)| [Golang](./547) | _O(N^3)_ | _O(N)_ | Medium
 ## Tree
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
@@ -105,9 +93,22 @@
 0098| [Validate Binary Search Tree                         ](https://leetcode.com/problems/validate-binary-search-tree)| [CPP](./98) | _O(N)_ | _O(N)_ | Medium
 0199| [Binary Tree Right Side View                         ](https://leetcode.com/problems/binary-tree-right-side-view)| [CPP](./199) | _O(N)_ | _O(N)_ | Medium
 0236| [Lowest Common Ancestor of a Binary Tree             ](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree)| [CPP](./236) | _O(N)_ | _O(N)_ | Medium
+## Linked List
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |
+0876| [Middle of the Linked List                           ](https://leetcode.com/problems/middle-of-the-linked-list/)| [Golang](./876) | _O(N)_ | _O(1)_ | Easy
+0002| [Add Two Numbers                                     ](https://leetcode.com/problems/add-two-numbers)| [Golang](./2) | _O(max(m n))_ | _O(max(m n))_ | Medium
+0021| [Merge Two Sorted Lists                              ](https://leetcode.com/problems/merge-two-sorted-lists)| [Golang](./21) | _O(N + M)_ | _O(1)_ | Easy
 ## Two Pointers
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |
 0011| [Container With Most Water                           ](https://leetcode.com/problems/container-with-most-water/solution/)| [Golang](./11) | _O(N)_ | _O(1)_ | Medium
 0003| [Longest Substring Without Repeating Characters      ](https://leetcode.com/problems/longest-substring-without-repeating-characters)| [Golang](./3) | _O(N)_ | _O(min(alphabet_size n))_ | Medium
 0019| [Remove Nth Node From End of List                    ](https://leetcode.com/problems/remove-nth-node-from-end-of-list)| [Golang](./19) | _O(N)_ | _O(1)_ | Medium
+## String
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    |
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |
+1119| [Remove Vowels from a String                         ](https://leetcode.com/problems/remove-vowels-from-a-string)| [Golang](./1119) | _O(N)_ | _O(N)_ | Easy
+0028| [Implement strStr()                                  ](https://leetcode.com/problems/implement-strstr)| [Golang](./28) | _O(N)_ | _O(1)_ | Easy
+0005| [Longest Palindromic Substring                       ](https://leetcode.com/problems/longest-palindromic-substring)| [Golang](./5) | _O(N^2)_ | _O(1)_ | Medium
+1461| [Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/)| [CPP](./1461) | _O(N)_ | _O(N)_ | Medium
