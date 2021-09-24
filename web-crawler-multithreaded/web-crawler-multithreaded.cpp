@@ -8,89 +8,77 @@
  */
 #define THREAD_NUM 10
 class Solution {
-private:
-    int thread_num;
-    string hostname;
-    queue<string> q;
-    unordered_set<string> seen;
-    int working = 0;
-    bool done;
-    mutex m;
-    condition_variable cv;
-    
-    string extractHostName(string& url){
-        int start = url.find('/') + 2;
-        int end =  url.find('/', start);
-        if(end == string::npos) 
-            return url.substr(start);
-        return url.substr(start, end - start);
-    }
-    vector<thread> workers;
-    
-    // this a worker thread that will be doing tasks.
-    void startWorker(HtmlParser* parser){
-        while(true){
-            unique_lock<mutex> ul(m);
-            // wait until there are some tasks OR
-            // we are done executing
-            cv.wait(ul, [&](){
-                return q.size() > 0 || done;
-            });
-            // if done, return.
-            if(done)
-                return;
-            // indicate that this thread is in progress
-            working++;
-            string item = q.front(); q.pop();
-            ul.unlock();
-            // since getUrls can take a lot of time, release the lock.
-            auto accessible = parser->getUrls(item);
-            
-            // acquire the lock and add tasks.
-            ul.lock();
-            for(auto& url : accessible){
-                // if it has been seen already or the host name doesn't match, ignore it.
-                if(seen.count(url) || extractHostName(url) != hostname)
-                    continue;
-                seen.insert(url);
-                q.push(url);
-            }
-            working--;
-            
-            // IF 
-            //   1) no thread is processing
-            //   2) no tasks are available even after executing this task
-            // THEN we are done.
-            if(working == 0 && q.empty()){
-                done = true;
-            }
-            // notify all the threads either about finishing or about availability of tasks.
-            cv.notify_all();
-        }
-    }
 
 public:
+    queue<string> q;
+    mutex m;
+    condition_variable cv;
+    unordered_set<string> hs;
+    vector<string> ans;
+    
+    void work(HtmlParser parser, string startUrl) {
+        
+        while(1) {
+            
+            unique_lock<mutex> lock(m);
+            auto ret = cv.wait_for(lock, 25ms, [&](){
+                return !q.empty();
+            });
+            
+            if(!ret) {
+                return;
+            }
+            
+            string top=q.front();
+            ans.push_back(top);
+            
+            
+            q.pop();
+            
+            lock.unlock();
+        
+            vector<string> urls = parser.getUrls(top);
+            
+            lock.lock();
+            
+            for(auto& s:urls){
+                
+                if(parseHostName(s) == parseHostName(startUrl) 
+                    && hs.find(s)==hs.end()) {
+                    
+                    hs.insert(s);
+                    q.push(s);
+                }
+            }
+            lock.unlock();
+        }
+    }
+    
+    string parseHostName(string s) {
+        
+        s.erase(s.begin(),s.begin()+7);
+        auto it = find_if(s.begin(),s.end(),[](auto c){
+            return c==':' || c=='/';
+        });
+        return string(s.begin(),it);
+    }
+    
     vector<string> crawl(string startUrl, HtmlParser htmlParser) {
-        // get the hostname for this url.
-        // mark it as seen.
-        hostname = extractHostName(startUrl);
-        seen.insert(startUrl);
-        done = false;
-        // get number of supported threads
-        thread_num = thread::hardware_concurrency();
-        // push the first task to do.
+        
+        int k=2;
+        thread threads[k];
+        
+        hs.insert(startUrl);
         q.push(startUrl);
         
-        // start bunch of worker threads.
-        for(int i = 0; i < thread_num; i++){
-            workers.emplace_back(&Solution::startWorker, this, &htmlParser);
+        for(int i=0;i<k;i++) {
+            threads[i] = thread([this, startUrl, htmlParser](){
+                work(htmlParser, startUrl);
+            });
         }
-        
-        // join those threads so that crawl is a blocking call 
-        for(auto &t : workers){
-            t.join();
+        for(int i=0;i<k;i++){
+            threads[i].join();
         }
-        // return every unique processed string
-        return vector<string>(seen.begin(), seen.end());
+        return ans;
     }
 };
