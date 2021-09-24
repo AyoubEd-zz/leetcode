@@ -1,23 +1,32 @@
-class HitCounter {
-private:
-    queue<int> q;
-public:
-    /** Initialize your data structure here. */
-    HitCounter() {
+struct Hit{
+        int timestamp;
+        int count;
+};
 
-    }
-    
-    /** Record a hit.
-        @param timestamp - The current timestamp (in seconds granularity). */
-    void hit(int timestamp) {
-        q.push(timestamp);
-    }
-    
-    /** Return the number of hits in the past 5 minutes.
-        @param timestamp - The current timestamp (in seconds granularity). */
-    int getHits(int timestamp) {
-        while(q.size() && q.front() + 300 <= timestamp) 
-					q.pop();
-        return q.size();
-    }
+class HitCounter{
+        private:
+                vector<Hit> ring;
+                int window = 300;
+        public:
+                HitCounter() {
+                        ring.resize(window);
+                }
+
+                void hit(int timestamp) {
+                        int pos = timestamp % window;
+                        int count = 0;
+                        if(ring[pos].timestamp == timestamp)
+                                count = ring[pos].count;
+
+                        ring[pos] = {timestamp, count+1};
+                }
+
+                int getHits(int timestamp) {
+                        int count = 0;
+                        for(const auto& a: ring) {
+                                if(a.timestamp > timestamp - window)
+                                        count += a.count;
+                        }
+                        return count;
+                }
 };
